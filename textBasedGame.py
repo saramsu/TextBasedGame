@@ -83,6 +83,17 @@ def option_DonotStop():
             "and your therapist recommends tou you to write your story. You follow this advice."
             "The book becomes a best seller and you are millionaire now."
             "The end. ☻")
+
+def option_GoAlong():
+    print ("You finally arrive to the village and all the villagers are surrounding you."
+    "The girl trnasforms into a woolf and now there is no loophole, you will be their dinner."
+    "The end."
+    "Do you want to play again? Y/N?")
+    if choice in yes:
+        one()
+    if choice in no:
+        print("See you later! Thanks for playing ☺.")
+
    
 
 

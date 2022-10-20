@@ -9,6 +9,7 @@ AnswerC = ["C", "c"]
 Required = ("Please only write the letter without additional characters."
         "Just A or a, for example.")
 
+
 #The story starts with the section named "one"
 def one():
     print("Hi there! Welcome to the adventure")
@@ -104,6 +105,8 @@ def option_GoAlong():
         print("See you later! Thanks for playing ☺.")
 
    
+
+
 
 
 

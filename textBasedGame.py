@@ -22,14 +22,13 @@ if choice in AnswerA:
     option_HelpHer()
 elif choice in AnswerB:
     option_DonotStop()
-    print('Behind you the girl transforms into a woolf and starts seeking you, running very fast trying to chatch you.')
 elif choice in AnswerC:
     option_GoAlong()
 
 def option_HelpHer():
     print("\n Now that she gets in the car starts looking at you very strange"
 "and her eyes are lighting. You are very nervous." "You remember a movie where"
-"the eyes of the vampire look exactly the same as this girl. You will:")
+"the eyes of the vampire look exactly the same as hers. You will:")
 print("""
     A Offer her a garlic sandwich you had in your pocket.
     B You try to avoid those ideas, and start a conversation with her.
@@ -46,66 +45,44 @@ if choice in AnswerA:
     "daughter." 
     "☻ The end."
 elif choice in AnswerB:
-    "You finally arrive to the village and all the villager are surrounding you."
-    "The gir trnasforms into a woolf and now there is no loophole, you will be their dinner."
+    "You finally arrive to the village and all the villagers are surrounding you."
+    "The girl trnasforms into a woolf and now there is no loophole, you will be their dinner."
     "The end."
 elif choice in AnswerC:
-    "You see her angry expression, and how she has stated to transform into a wolfgirl."
-    "You will:"
-
-
-
-def option_HelpHer():
-    print("\n Now that she gets in the car starts looking at you very strange"
-"and her eyes are lighting. You are very nervous." "You remember a movie where"
-"the eyes of the vampire look exactly the same as this girl. You will:")
-print("""
-    A Offer her a garlic sandwich you had in your pocket.
-    B You try to avoid those ideas, and start a conversation with her.
-    C You ask her to get off the car immediately.
-""") 
-choice = input (">>> ") #Third choice
-if choice in AnswerA:
-
-elif choice in AnswerB:
-    
-
-elif choice in AnswerC:
+    "You see her angry expression, and how she has started to transform into a wolfgirl."
+    "You Decide to leave the car. Y/N?"
+    choice = input(">>> ")
+    if choice in yes:
+        print ("Now that the girl is trapped in the car, you will just wait a couple of"
+        "hours till dawn, when the girl can not transform into a woolf and you will have you car"
+        "again to go home. You will never take this path again for the rest of your life." 
+        "The end.☻")
+    if choice in no:
+        print ("figths with her till the dawn, and now that she can not turn into a woolf"
+        "you get her out off the car and return home a little hurt. You will never"
+        "take this path again for the rest of your life"
+        "The end. ☺ ").
 
 
 def option_DonotStop():
-    print("\n Now that she gets in the car starts looking at you very strange"
-"and her eyes are lighting. You are very nervous." "You remember a movie where"
-"the eyes of the vampire look exactly the same as this girl. You will:")
-print("""
-    A Offer her a garlic sandwich you had in your pocket.
-    B You try to avoid those ideas, and start a conversation with her.
-    C You ask her to get off the car immediately.
-""")
-choice = input (">>> ") #forth choice
-if choice in AnswerA:
-
-elif choice in AnswerB:
-    
-
-elif choice in AnswerC:
-
-def  option_GoAlong():
-    print("\n Now that she gets in the car starts looking at you very strange"
-"and her eyes are lighting. You are very nervous." "You remember a movie where"
-"the eyes of the vampire look exactly the same as this girl. You will:")
-print("""
-    A Offer her a garlic sandwich you had in your pocket.
-    B You try to avoid those ideas, and start a conversation with her.
-    C You ask her to get off the car immediately.
-""")
-choice = input (">>> ") #fifth choice
-if choice in AnswerA:
-
-elif choice in AnswerB:
-    
-
-elif choice in AnswerC:
-
+    print('Behind you the girl transforms into a woolf and starts seeking you," 
+    "running very fast trying to chatch you."
+    "As soon as you realize this you speed up untill arrive to the nearest village."
+    "Y/N?")
+    if choice in yes:
+        print ("All the villagers are awaiting for you and now you will be their dinner."
+        "The end.")
+    if choice in no:
+        print ("You go back home and now that you want to tell someone... nobody believes you"
+        "but now that you are safe, you decide to write your story. Y/N")
+        if choice in yes: 
+            print("Your book becomes a bestseller and now you are millionaire."
+            "The end.♥")
+        if choice in no:
+            print("After a couple of months of nightmers with this event, you go to therapy"
+            "and your therapist recommends tou you to write your story. You follow this advice."
+            "The book becomes a best seller and you are millionaire now."
+            "The end. ☻")
+   
 
 

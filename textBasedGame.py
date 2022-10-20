@@ -38,12 +38,12 @@ choice = input (">>> ") #Second choice
 if choice in AnswerA:
     print ("The girl seems to be grateful and starts eting the sandwich eagerly"
     "you look at her and she has already eaten the sandwich and is crestfallen,"
-    "as if she were repentant or meditative. As soon as you arrive to the next village"
+    "as if she were repentant or meditative. When you are close to arrive to the village"
     "She starts crying and confess you that all the people in her village are cursed,"
     "and they transform into wolves during the night, she was the bait for you to be their"
     "dinner. And shows you a shortcut. You adopted her and now she is half your pet, half your"
     "daughter." 
-    "☻ The end."
+    "The end.")
 elif choice in AnswerB:
     "You finally arrive to the village and all the villagers are surrounding you."
     "The girl trnasforms into a woolf and now there is no loophole, you will be their dinner."
@@ -61,11 +61,11 @@ elif choice in AnswerC:
         print ("figths with her till the dawn, and now that she can not turn into a woolf"
         "you get her out off the car and return home a little hurt. You will never"
         "take this path again for the rest of your life"
-        "The end. ☺ ").
+        "The end.")
 
 
 def option_DonotStop():
-    print('Behind you the girl transforms into a woolf and starts seeking you," 
+    print("Behind you the girl transforms into a woolf and starts seeking you," 
     "running very fast trying to chatch you."
     "As soon as you realize this you speed up untill arrive to the nearest village."
     "Y/N?")
@@ -82,7 +82,7 @@ def option_DonotStop():
             print("After a couple of months of nightmers with this event, you go to therapy"
             "and your therapist recommends tou you to write your story. You follow this advice."
             "The book becomes a best seller and you are millionaire now."
-            "The end. ☻")
+            "The end.")
 
 def option_GoAlong():
     print ("You finally arrive to the village and all the villagers are surrounding you."
@@ -95,5 +95,9 @@ def option_GoAlong():
         print("See you later! Thanks for playing ☺.")
 
    
+
+
+
+
 
 

@@ -1,7 +1,13 @@
+import time
+from typing_extensions import Required 
+
 #Possible answers
 AnswerA = ["A", "a"]
 AnswerB = ["B", "b"]
 AnswerC = ["C", "c"]
+
+Required = ("Please only write the letter without additional characters."
+        "Just A or a, for example.")
 
 #The story starts with the section named "one"
 def one():
@@ -24,6 +30,9 @@ elif choice in AnswerB:
     option_DonotStop()
 elif choice in AnswerC:
     option_GoAlong()
+else: 
+    print(required)
+    one()
 
 def option_HelpHer():
     print("\n Now that she gets in the car starts looking at you very strange"

@@ -1,4 +1,4 @@
-#Possible response 
+#Possible answers
 AnswerA = ["A", "a"]
 AnswerB = ["B", "b"]
 AnswerC = ["C", "c"]
@@ -9,7 +9,7 @@ def one():
     name = input('Enter your preferred name:')
     print("Welcome to the adventure + name+!")
     print("\n You have been driven during the entire night"
-    "and suddenly a girl with long and disheveled hair ask you to carry"
+    "and suddenly a girl with long and disheveled hair asks you to carry"
     "her to the nearest village. What are you going to do?")
 
 print(""" 
